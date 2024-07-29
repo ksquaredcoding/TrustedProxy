@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use PHPUnit\Framework\TestCase;
-use Fideloper\Proxy\TrustProxies;
+use KsquaredCoding\Proxy\TrustProxies;
 
 class TrustedProxyTest extends TestCase
 {
@@ -364,7 +364,7 @@ class TrustedProxyTest extends TestCase
      * @param null|string|int $trustedHeaders
      * @param null|array|string $trustedProxies
      *
-     * @return \Fideloper\Proxy\TrustProxies
+     * @return \KsquaredCoding\Proxy\TrustProxies
      */
     protected function createTrustedProxy($trustedHeaders, $trustedProxies)
     {
